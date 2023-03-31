@@ -1,0 +1,58 @@
+
+.header{
+     background-image:url('pictures/i3.jpg') ;
+     background-size: cover;
+    height:700px;
+    width:1500px;
+    
+}
+
+.main{
+    text-align:center;
+    color:rgb(212, 255, 0);
+    font-size:40px;
+    font-style:italic;
+    font-weight:bold;
+}
+.menu{
+    width:400px;
+    float: left;
+    height:70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content:center;
+    align-iteam:center;
+    
+}
+ul li{
+    list-style:none;
+    margin-left:62px;
+    margin-top:27px;
+    front-size:14px;
+   
+}
+ul li a{
+    text-decoration:none;
+    color:#fff;
+    font-family:arial;
+    font-weight:bold;
+    transition:0.4s ease-in-out;
+    background-color:red
+}
+ul li a:hover{
+    color:#ff7200;
+}
+.search{
+    width:330px;
+    float:left;
+    margin-left:270px;
+}
+.srch{
+    font-family:'time new roman'
+    width:200px;
+    height:40px;
+    color:#fff;
+    
+}
